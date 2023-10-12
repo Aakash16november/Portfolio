@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    color: white;
+    align-items: center;
+    position: fixed;
+    
+}
+.logo{
+    margin-left: 3rem;
+    
+}
+.bar{
+    align-items: center;
+    margin-left: 55rem;
+}
+.navbar a{
+    color: white;
+    margin: 1rem;
+    text-decoration: none;
+    
+}
+.section{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+    display: flex;
+}
+.content{
+    color: white;
+    margin-top: 9rem;
+    width: 50%;
+}
+h5{
+    font-size: 100%;
+}
+
+.photo{
+    background-image: url("hero.jpg");
+    height: 400px;
+    width: 20%;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 3rem;
+}
+.section2{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+}
+.img{
+    margin-top: 1rem;
+    margin-left: 45%;
+    font-size: 2rem;
+    color: white;
+}
+.cont{
+    
+    color: white;
+}
+.ccsu{
+    background-image: url("cssulogo.jpeg");
+    background-size: cover;
+    height: 53px;
+    width: 3.5%;
+    margin-top: 2rem;
+    margin-left: 28%; 
+}
+.section3{
+    display: flex;
+    background-color: black;
+    height: 150px;
+}
+.cont1{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.section4{
+    display: flex;
+    background-color: black;
+    height: 150px;
+}
+.section5{
+    display: flex;
+    background-color: black;
+    height: 150px;
+}
+.parasi{
+    background-image: url("dav-public-school.jpg");
+    background-size: cover;
+    height: 53px;
+    width: 3.5%;
+    margin-top: 2rem;
+    margin-left: 28%; 
+}
+.bina{
+    background-image: url("dav-public-school.jpg");
+    background-size: cover;
+    height: 53px;
+    width: 3.5%;
+    margin-top: 2rem;
+    margin-left: 28%; 
+}
+.section6{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+}
+.section7{
+    background-color: black;
+    
+}
+.skill{
+    color: white;
+}
+ol{
+    margin-left: 28%;
+}
+
+.section8{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+}
+.section9{
+    display: flex;
+    background-color: black;
+    height: 200px;
+    align-items: center;
+}
+.project{
+    background-image: url("amazonclone.jpeg");
+    height: 150px;
+    width: 20%;
+    border-top-left-radius: 0.85rem;
+    border-top-right-radius: 0.85rem;
+    border-bottom-left-radius: 0.85rem;
+    border-bottom-right-radius: 0.85rem;
+    margin-left: 20%;
+    
+    
+}
+.section10{
+    background-color: white;
+    display: flex;
+    height: 75px;
+}
+.img1{
+    margin-top: 1rem;
+    margin-left: 45%;
+    font-size: 2rem;
+    color: black;
+}
+h2{
+    margin-left: 1rem;
+    
+}
+footer{
+    background-color: white;
+    height: 400px;
+}
+.section11{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input{
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid black;
+    color:  black;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+button{
+    font-size: 0.95rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+.address{
+    display: flex;
+}
+.mobile{
+    display: flex;
+}
+.email{
+    display: flex;
+}
+h4{
+    margin-left: 1rem;
+}
+h6{
+    margin-left: 1rem;
+}
+p{
+    font-size: 150%;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+.resume{
+    background-image: url("Screenshot\ \(52\).png");
+    background-size: cover;
+    height: 690px;
+    width: 35%;
+    margin-top: 5rem;
+    
+}
+.res{
+    justify-content: center;
+    display: flex;
+    height: 821px;
+    background-color: black;
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 50px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+    
+    .navbar a{
+        color: white;
+        margin: 0.5rem;
+        font-size: 10px;
+        
+    }
+    .navbar{
+        height: 40px;
+    }
+    .logo{
+        margin-left: 0rem;
+        font-size: 13px;
+    }
+    .bar{
+        align-items: center;
+        margin-left: 3rem;
+    }
+    
+    .section{
+        height: 500px;
+        background-color: black;
+        display: block;
+    }
+    .photo{
+        height: 250px;
+        width: 60%;
+        background-size: cover;
+        margin-left: 18%;
+        margin-top: 4rem;
+        margin: 0px 0px 0px 70px;
+    }
+    .content{
+        color: white;
+        margin-top: 1rem;
+        margin-left: 7rem;
+        width: 50%;
+    }
+
+    .ccsu{
+        background-image: url("cssulogo.jpeg");
+        background-size: cover;
+        height: 50px;
+        width: 20%;
+        margin-top: 2rem;
+        margin-left: 18%; 
+    }
+    .section3{
+        display: flex;
+        background-color: black;
+        height: 150px;
+    }
+    .cont1{
+        color: white;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        font-size: 10px;
+    }
+    .parasi{
+        background-image: url("dav-public-school.jpg");
+        background-size: cover;
+        height: 50px;
+        width: 20%;
+        margin-top: 2rem;
+        margin-left: 18%; 
+    }
+    .bina{
+        background-image: url("dav-public-school.jpg");
+        background-size: cover;
+        height: 50px;
+        width: 20%;
+        margin-top: 2rem;
+        margin-left: 18%; 
+    }
+    .img{
+        margin-top: 1rem;
+        margin-left: 35%;
+        font-size: 2rem;
+        color: white;
+    }
+    .skill{
+        font-size: 80%;
+    }
+    .project{
+        background-image: url("amazonclone.jpeg");
+        height: 100px;
+        width: 50%;
+        border-top-left-radius: 0.85rem;
+        border-top-right-radius: 0.85rem;
+        border-bottom-left-radius: 0.85rem;
+        border-bottom-right-radius: 0.85rem;
+        margin-left: 30%;
+        
+    }
+    .section11{
+        display: block;
+        height: 450px;
+        
+    }
+    .get{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .address{
+        display: flex;
+        margin-top: 1rem;
+        
+    }
+    .mobile{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .email{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .img2{
+        margin-left: 4rem;
+    }
+    button{
+        margin-left: 7rem;
+    }.img1{
+        margin-top: 1rem;
+        margin-left: 35%;
+        
+    }
+    .message{
+        width: 90%;
+        
+    }
+    .resume{
+        background-image: url("Screenshot\ \(52\).png");
+        background-size: cover;
+        height: 500px;
+        width: 90%;
+        margin-top: 5rem;
+        
+    }
+    .res{
+        justify-content: center;
+        display: flex;
+        height: 801px;
+        background-color: black;
+    }
+}
